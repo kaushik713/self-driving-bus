@@ -12,7 +12,7 @@ public class SelfDrivingBus {
     
     static int solve(int[][] tree,int n) {
         int sum=0;
-        //here we caluclate no of edges
+        //here we caluclate no of edges of graph
         for(int i=0;i<tree.length;i++)
         sum+=tree[i].length;
 
